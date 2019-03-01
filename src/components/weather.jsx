@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import axios from "react-axios";
+import axios from "axios";
 class Weather extends Component {
   state = { hits: null };
   componentDidMount() {
